@@ -1,7 +1,7 @@
 import React, { useState, useContext } from "react";
 import axios from "axios";
 import { toast } from "react-toastify";
-import { serverDataContext } from "../context/serverContex";
+import { serverDataContext } from "../context/ServerContex";
 
 const UploadForm = ({ onSuccess }) => {
   const [file, setFile] = useState(null);

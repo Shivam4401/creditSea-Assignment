@@ -6,7 +6,7 @@ import CreditAccounts from "./CreditAccounts";
 import { useState } from "react";
 import { useEffect } from "react";
 import { useContext } from "react";
-import { serverDataContext } from "../context/serverContex";
+import { serverDataContext } from "../context/ServerContex";
 import Loader from "./Loader";
 
 const ReportPage = ({ userId }) => {
