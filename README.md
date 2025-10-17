@@ -32,6 +32,45 @@ Tech Stack
     ⦁Other Tools: Axios, Multer, xml2js, React Context API
 
 
+Setup & Run Instructions
+
+    Prerequisites
+    
+        Node.js & npm installed
+        
+        MongoDB Atlas account (or local MongoDB)
+        
+        Git (to clone the repository)
+
+    1. Clone the Repository
+    git clone <your-repo-url>
+    cd creditsea-app
+
+    2. Backend Setup
+    cd backend
+    npm install
+    
+    
+    Create a .env file in the backend folder with:
+    
+    MONGO_URI=<your-mongodb-connection-string>
+    PORT=3000
+    
+    
+    Start the backend server:
+    
+    npm run dev
+    
+    
+    Backend will run at http://localhost:3000
+
+    3. Frontend Setup
+    cd frontend
+    npm install
+    npm start
+    
+    
+    Frontend will run at http://localhost:5173
 
 Usage
 
