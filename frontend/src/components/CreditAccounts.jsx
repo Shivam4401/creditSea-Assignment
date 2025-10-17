@@ -7,12 +7,30 @@ const CreditAccounts = ({ accounts }) => {
       <h2 className="text-xl font-semibold mb-3">Credit Accounts</h2>
       {accounts.map((acc) => (
         <div key={acc._id} className="mb-4 p-3 border rounded-lg bg-gray-50">
-          <p>Account Type: {acc.accountType}</p>
-          <p>Bank Name: {acc.bankName}</p>
-          <p>Account Number: {acc.accountNumber}</p>
-          <p>Address: {acc.address}</p>
-          <p>Amount Overdue: {acc.amountOverdue}</p>
-          <p>Current Balance: {acc.currentBalance}</p>
+          <p>
+            {" "}
+            <strong>Account Type:</strong> {acc.accountType}
+          </p>
+          <p>
+            {" "}
+            <strong>Bank Name:</strong> {acc.bankName}
+          </p>
+          <p>
+            {" "}
+            <strong>Account Number:</strong> {acc.accountNumber}
+          </p>
+          <p>
+            {" "}
+            <strong>Address:</strong> {acc.address}
+          </p>
+          <p>
+            {" "}
+            <strong>Amount Overdue:</strong> {acc.amountOverdue}
+          </p>
+          <p>
+            {" "}
+            <strong>Current Balance:</strong> {acc.currentBalance}
+          </p>
         </div>
       ))}
     </div>

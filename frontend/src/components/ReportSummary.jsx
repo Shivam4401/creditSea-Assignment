@@ -4,13 +4,34 @@ const ReportSummary = ({ summary }) => {
   return (
     <div className="p-4 mx-4 bg-white shadow-md rounded-xl border">
       <h2 className="text-xl font-semibold mb-3">Report Summary</h2>
-      <p>Total Accounts: {summary.totalAccounts}</p>
-      <p>Active Accounts: {summary.activeAccounts}</p>
-      <p>Closed Accounts: {summary.closedAccounts}</p>
-      <p>Current Balance: {summary.currentBalance}</p>
-      <p>Secured Amount: {summary.securedAmount}</p>
-      <p>Unsecured Amount: {summary.unsecuredAmount}</p>
-      <p>Last 7 Days Enquiries: {summary.last7DaysEnquiries}</p>
+      <p>
+        {" "}
+        <strong>Total Accounts:</strong> {summary.totalAccounts}
+      </p>
+      <p>
+        {" "}
+        <strong>Active Accounts:</strong> {summary.activeAccounts}
+      </p>
+      <p>
+        {" "}
+        <strong>Closed Accounts:</strong> {summary.closedAccounts}
+      </p>
+      <p>
+        {" "}
+        <strong>Current Balance:</strong> {summary.currentBalance}
+      </p>
+      <p>
+        {" "}
+        <strong>Secured Amount:</strong> {summary.securedAmount}
+      </p>
+      <p>
+        {" "}
+        <strong>Unsecured Amount:</strong> {summary.unsecuredAmount}
+      </p>
+      <p>
+        {" "}
+        <strong>Last 7 Days Enquiries:</strong> {summary.last7DaysEnquiries}
+      </p>
     </div>
   );
 };
